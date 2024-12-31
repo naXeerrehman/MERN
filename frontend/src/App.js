@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Banner from './components/Banner'
 
 const App = () => {
   return (
-    <div>App Development Services!!!
+    <div>
+      <Navbar/>
+      <Banner/>
     </div>
   )
 }
